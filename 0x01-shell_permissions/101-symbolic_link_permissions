@@ -1,9 +1,2 @@
 #!/bin/bash
-
-# Define the target file
-target="_hello"
-
-# Change the owner and group owner of the symbolic link
-chown vincent:staff "$target"
-
-echo "Owner and group owner of '$target' changed to vincent:staff."
+chown vincent:staff _hello
