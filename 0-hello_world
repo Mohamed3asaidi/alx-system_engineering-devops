@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# This is a Bash script that prints "Hello, World" with a newline
+echo "Hello, World"
+echo # This empty echo adds a newline character
